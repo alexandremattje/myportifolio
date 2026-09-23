@@ -1,0 +1,29 @@
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Build outputs
+build/
+out/
+dist/
+.gradle/
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data
+postgres-data/
+
+# Test and coverage output
+coverage/
