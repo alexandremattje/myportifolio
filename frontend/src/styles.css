@@ -1,0 +1,9 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #172033;
+  background: #f5f7fb;
+}
+
+body { margin: 0; }
+.container { max-width: 960px; margin: 0 auto; padding: 4rem 1.5rem; }
+.card { margin-top: 2rem; padding: 1.5rem; border-radius: 12px; background: white; box-shadow: 0 8px 24px rgb(20 35 70 / 8%); }
