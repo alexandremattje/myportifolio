@@ -14,6 +14,8 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-jdbc")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.apache.commons:commons-csv:1.14.1")
+    implementation("org.apache.poi:poi-ooxml:5.4.1")
     runtimeOnly("org.postgresql:postgresql")
     implementation("org.flywaydb:flyway-core")
     implementation("org.flywaydb:flyway-database-postgresql")
