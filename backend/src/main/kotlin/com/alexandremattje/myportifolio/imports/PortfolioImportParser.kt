@@ -160,6 +160,7 @@ class PortfolioImportParser {
         val normalized = when {
             raw.contains(',') -> raw.replace(".", "").replace(',', '.')
             raw.count { it == '.' } > 1 -> raw.replace(".", "")
+            raw.matches(Regex("-?\\d{1,3}\\.\\d{3}")) -> raw.replace(".", "")
             else -> raw
         }
         return normalized.toBigDecimalOrNull()
